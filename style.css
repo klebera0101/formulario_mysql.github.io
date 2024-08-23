@@ -1,0 +1,55 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+form {
+    background: #dddddd;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+}
+
+input{
+    width: 90%;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+textarea{
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+button{
+    background: green;
+    color: white;
+    padding: 15px 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background: rgb(12, 161, 12)
+}
+
+.mensagens {
+    display: flex;
+    flex-flow: column;
+    background: #e6e6e6;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
